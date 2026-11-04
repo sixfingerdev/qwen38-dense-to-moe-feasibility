@@ -1,0 +1,13 @@
+experiment,method,active_fraction,calibration_tokens,holdout_tokens,mean_relative_l2_pct,median_relative_l2_pct,p90_relative_l2_pct,first_ffn_only,oracle_non_deployable,training_steps
+stage56,static_mean_raw_importance,0.25,91,47,42.717,44.126,64.098,true,false,0
+stage56,static_mean_centered_importance,0.25,91,47,41.845,42.960,63.266,true,false,0
+stage56,static_mean_raw_importance,0.50,91,47,27.170,27.280,44.662,true,false,0
+stage56,static_mean_centered_importance,0.50,91,47,26.254,24.593,41.486,true,false,0
+stage56,static_mean_raw_importance,0.75,91,47,13.949,12.520,21.685,true,false,0
+stage56,static_mean_centered_importance,0.75,91,47,14.756,13.009,22.019,true,false,0
+stage57,pca_sketch_rank80_mean_compensation,0.25,91,47,43.335,41.506,69.442,true,false,0
+stage57,pca_sketch_rank80_mean_compensation,0.50,91,47,29.346,29.197,52.797,true,false,0
+stage57,pca_sketch_rank80_mean_compensation,0.75,91,47,16.595,15.559,31.074,true,false,0
+stage57,full_activation_oracle_diagnostic,0.25,91,47,29.123,27.863,46.446,true,true,0
+stage57,full_activation_oracle_diagnostic,0.50,91,47,10.128,9.439,14.800,true,true,0
+stage57,full_activation_oracle_diagnostic,0.75,91,47,2.092,1.991,2.950,true,true,0

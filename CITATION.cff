@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: >-
+  If you use the research findings, please cite this feasibility report rather
+  than describing it as a released Qwen MoE model.
+title: 'SixFinger Qwen3.8-27B Dense-to-MoE Feasibility Study'
+type: software
+authors:
+  - name: SixFingerDev
+date-released: '2026-11-04'
+version: '1.0.0'
+license: MIT
+repository-code: 'https://github.com/sixfingerdev/qwen38-dense-to-moe-feasibility'
+abstract: >-
+  Training-free first-layer Qwen3.8-27B SwiGLU sparsification investigation
+  with held-out local-output error measurements, prototype code, and a
+  documented negative result for near-lossless accelerated MoE deployment.
